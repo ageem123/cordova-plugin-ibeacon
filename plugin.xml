@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="org.apache.cordova.ibeaconmanager" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="com.conetix.ibeacon" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <name>iBeaconManager</name>
     <description>Cordova iBeacon Manager Plugin</description>
@@ -68,7 +68,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="LocationManager" >
-                <param name="android-package" value="org.apache.cordova.ibeaconmanager.LocationManager"/>
+                <param name="android-package" value="com.conetix.ibeacon"/>
             </feature>
         </config-file>
 
