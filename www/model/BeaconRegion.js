@@ -17,10 +17,10 @@
  under the License.
  */
 
-var _ = require('org.apache.cordova.ibeacon.underscorejs');
-var klass = require('org.apache.cordova.ibeacon.klass');
+var _ = require('com.adagetechnologies.ibeacon.underscorejs');
+var klass = require('com.adagetechnologies.ibeacon.klass');
 
-var Region = require('org.apache.cordova.ibeacon.Region');
+var Region = require('com.adagetechnologies.ibeacon.Region');
 
 /**
  * Constructor for {CLBeaconRegion}.

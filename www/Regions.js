@@ -17,12 +17,12 @@
  under the License.
  */
 
-var _ = require('org.apache.cordova.ibeacon.underscorejs');
-var CircularRegion = require('org.apache.cordova.ibeacon.CircularRegion');
-var BeaconRegion = require('org.apache.cordova.ibeacon.BeaconRegion');
-var Region = require('org.apache.cordova.ibeacon.Region');
+var _ = require('com.adagetechnologies.ibeacon.underscorejs');
+var CircularRegion = require('com.adagetechnologies.ibeacon.CircularRegion');
+var BeaconRegion = require('com.adagetechnologies.ibeacon.BeaconRegion');
+var Region = require('com.adagetechnologies.ibeacon.Region');
 
-var klass = require('org.apache.cordova.ibeacon.klass');
+var klass = require('com.adagetechnologies.ibeacon.klass');
 
 /**
  * Utility class for un-marshalling {Region} instances from JSON objects,

@@ -17,8 +17,8 @@
  under the License.
  */
 
-var _ = require('org.apache.cordova.ibeacon.underscorejs');
-var klass = require('org.apache.cordova.ibeacon.klass');
+var _ = require('com.adagetechnologies.ibeacon.underscorejs');
+var klass = require('com.adagetechnologies.ibeacon.klass');
 
 /**
  * Base class for different types of regions that the [LocationManager] can monitor.
